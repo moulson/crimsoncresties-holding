@@ -1,0 +1,78 @@
+$mobile: 575px;
+
+body{
+    max-width: 1330px;
+    margin:auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo{
+    margin-top: 40px;
+    width: 128px;
+    margin: auto;
+}
+
+.logo, .img-container{
+    text-align: center;
+        &.ig{
+            img{
+                height: 100px;
+            }
+        }
+    img{
+        max-width:100%;
+        height: auto;
+    }
+}
+
+.main-header{
+    text-align: center;
+    h1{
+        color: #A23F35;
+    }
+}
+
+.sub-header{
+    text-align: center;
+    h2{
+        color: #777;
+    }
+}
+
+.line-break{
+    width:40%;
+}
+
+.col-auto.center{
+    margin:auto;
+    @media screen and (max-width: $mobile){
+        width: 100%;
+    }
+}
+
+.followtext{
+    display: flex;
+    align-items: center;
+    a{
+        color: black;
+        text-decoration: underline;
+    }
+    @media screen and (max-width: $mobile){
+        display: inline;
+        text-align: center;
+    }
+}
+
+
+.geckos{
+    margin-top: 20px;
+    .img-container{
+        max-width: 200px;
+        margin: auto;
+    }
+}
