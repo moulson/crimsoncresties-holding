@@ -1,11 +1,22 @@
 $mobile: 575px;
 
+
+@font-face {
+    font-family: 'GloriaHallelujah';
+    src: url('../fonts/gloriahallelujah-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gloriahallelujah-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     max-width: 1330px;
     margin:auto;
     scroll-behavior: smooth;
     overflow-x: hidden;    
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -34,6 +45,8 @@ html{
     text-align: center;
     h1{
         color: #A23F35;
+        font-family: 'GloriaHallelujah';
+        font-size: 56px;
     }
 }
 
