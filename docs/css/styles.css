@@ -1,0 +1,104 @@
+/*! jmpr-site v1.0.0 | (c) 2020  | ISC License | git+https://github.com/moulson/jmpr-site.git */
+/* line 3, src/sass/styles.scss */
+body {
+  max-width: 1330px;
+  margin: auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* line 9, src/sass/styles.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 14, src/sass/styles.scss */
+.logo {
+  margin-top: 40px;
+  width: 128px;
+  margin: auto;
+}
+
+/* line 20, src/sass/styles.scss */
+.logo, .img-container {
+  text-align: center;
+}
+
+/* line 23, src/sass/styles.scss */
+.logo.ig img, .img-container.ig img {
+  height: 100px;
+}
+
+/* line 27, src/sass/styles.scss */
+.logo img, .img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 33, src/sass/styles.scss */
+.main-header {
+  text-align: center;
+}
+
+/* line 35, src/sass/styles.scss */
+.main-header h1 {
+  color: #A23F35;
+}
+
+/* line 40, src/sass/styles.scss */
+.sub-header {
+  text-align: center;
+}
+
+/* line 42, src/sass/styles.scss */
+.sub-header h2 {
+  color: #777;
+}
+
+/* line 47, src/sass/styles.scss */
+.line-break {
+  width: 40%;
+}
+
+/* line 51, src/sass/styles.scss */
+.col-auto.center {
+  margin: auto;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 51, src/sass/styles.scss */
+  .col-auto.center {
+    width: 100%;
+  }
+}
+
+/* line 58, src/sass/styles.scss */
+.followtext {
+  display: flex;
+  align-items: center;
+}
+
+/* line 61, src/sass/styles.scss */
+.followtext a {
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 58, src/sass/styles.scss */
+  .followtext {
+    display: inline;
+    text-align: center;
+  }
+}
+
+/* line 72, src/sass/styles.scss */
+.geckos {
+  margin-top: 20px;
+}
+
+/* line 74, src/sass/styles.scss */
+.geckos .img-container {
+  max-width: 200px;
+  margin: auto;
+}
